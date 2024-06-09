@@ -4,6 +4,7 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
+from scipy.sparse import csr_matrix
 
 ps = PorterStemmer()
 
