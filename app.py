@@ -6,6 +6,10 @@ import nltk
 from nltk.stem.porter import PorterStemmer
 from scipy.sparse import csr_matrix
 
+nltk.download('punkt')
+nltk.download('stopwords')
+
+
 ps = PorterStemmer()
 
 
